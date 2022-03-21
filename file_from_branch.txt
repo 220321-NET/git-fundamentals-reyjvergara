@@ -1,0 +1,5 @@
+this is a file that was on a branch, at least I think I made it that way.
+the way to move to the branch was to do
+git checkout branch_name_here
+if it didn't exist, I would use -b for the new branch
+
