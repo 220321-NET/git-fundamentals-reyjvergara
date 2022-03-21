@@ -1,0 +1,2 @@
+this is a new file that was made using the touch command
+thent edited in nano

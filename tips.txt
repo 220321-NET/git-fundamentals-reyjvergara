@@ -1,0 +1,8 @@
+It is very important to specify what files from an import statement you 
+are bringing over. The issue is not because of resource management, but 
+rather it is because of the risk of two data structures from different imports
+can ruin the software. For example, Java before did not have List in utils, 
+then when it did, the import statment that previously implemented Lists 
+screwed everything up. The interpreter could not differentiate between the
+two same-named functions. Not all languages run the risk of this confusion,
+but keep that in mind.
